@@ -27,25 +27,8 @@
 			</activation>
 			<modules>
 				<module>jobs-core</module>
-<!--				<module>relation-cache-updater</module>-->
-<!--				<module>activity-aggregate-updater</module>-->
-				<module>post-publish-processor</module>
-<!--				<module>credential-generator</module>-->
-				<module>publish-pipeline</module>
-				<module>search-indexer</module>
-<!--				<module>enrolment-reconciliation</module>-->
 				<module>auto-creator-v2</module>
-				<module>content-auto-creator</module>
-				<module>audit-history-indexer</module>
-				<module>audit-event-generator</module>
-<!--				<module>metrics-data-transformer</module>-->
-				<module>qrcode-image-generator</module>
-				<module>dialcode-context-updater</module>
-				<module>cassandra-data-migration</module>
-				<module>live-video-stream-generator</module>
-				<module>csp-migrator</module>
-				<module>asset-enrichment</module>
-				<module>video-stream-generator</module>
+				<module>user-delete</module>
 			</modules>
 		</profile>
 		<profile>
@@ -55,7 +38,7 @@
 			</activation>
 			<modules>
 				<module>jobs-core</module>
-				<module>publish-pipeline/publish-core</module>
+				<!-- <module>publish-pipeline/publish-core</module> -->
 			</modules>
 		</profile>
 	</profiles>
